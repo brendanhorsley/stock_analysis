@@ -27,9 +27,15 @@ On the other hand we can see "ENPH" and "RUN" performed extremely well, both dis
 
 ## Summary
 
-In the original analysis the calculations were being ran at around 0.80 seconds.
-After refactoring the analysis was ran at 0.1 and 0.08 seconds. 
-
 ### Pros of Refactoring
 
+In the original analysis the calculations were being ran at around 0.80 seconds.
+After refactoring the analysis was ran at 0.1 and 0.08 seconds.
+This difference may seem small but as data sets grow and larger analyses need to be performed, the refactored data set's value will be more noticable.
+Refactoring code to run faster and use less memory is important when dealing with large data sets.
+Additionally, refactoring allows the code to be more logical, and easier to read.
+
 ### Cons of Refactoring
+
+One con of refactoring code is that it is time-consuming.
+Unless the code was likely going to be used for much larger data sets, the value of refactoring might not have been worth it.
