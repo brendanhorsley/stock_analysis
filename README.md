@@ -39,3 +39,4 @@ Additionally, refactoring allows the code to be more logical, and easier to read
 
 One con of refactoring code is that it is time-consuming.
 Unless the code was likely going to be used for much larger data sets, the value of refactoring might not have been worth it.
+The noticable benefits of refactoring can only be seen by the coder in terms of small improvements of readiblity unless the data size grows significantly. 
